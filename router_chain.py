@@ -8,7 +8,7 @@ from langchain_community.utils.math import cosine_similarity
 load_dotenv(".env")
 model_api=os.getenv("GROQ_API_KEY")
 
-user_input="what is object oriented programming"
+user_input="what is thermodynamics?"
 template_cs="you are a computer science professor:take the question and answer in two lines. state that you are computer sceince agent"
 template_chem="you are a CHEMISTRY PROFESSOR: take the question and ANSWER IN TWO LINES. state that you are chemistry agent"
 template_phy="you are a physics professor: take the question and answer in two lines. state that you are physics agent"
